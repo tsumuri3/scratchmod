@@ -1,0 +1,7746 @@
+<!DOCTYPE html><html><head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     
+    <meta name="google-site-verification" content="m_3TAXDreGTFyoYnEmU9mcKB4Xtw5mw6yRkuJtXRKxM">
+    <title>tsumuri3 on Scratch</title>
+    
+
+<meta name="description" content="tsumuri3 on Scratch">
+
+    <link rel="stylesheet" href="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__/vendor/redmond/jquery.ui.all.css">
+    
+        <link href="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__/css/main.css" rel="stylesheet" type="text/css">
+   
+   <link rel="stylesheet" href="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__//css/handheld.css" media="handheld, only screen and (max-device-width:480px)">
+
+    
+<!-- templates/profiles/profile_detail.html block css -->
+<link href="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__//css/pages/profile.css" rel="stylesheet">
+<link href="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__//css/pages/scratcher_promotion.css" rel="stylesheet">
+<link href="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__//vendor/redmond/jquery.ui.all.css" rel="stylesheet">
+<link href="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__//css/modules/modal.css" rel="stylesheet">
+<!-- end block css -->
+
+    <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__//js/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__/js/lib/underscore-min.js"></script>
+    
+    <script>
+      window.console||(window.console={log:$.noop,error:$.noop,debug:$.noop}); // ensure console fails gracefully when missing
+      // define _gaq here to log errors with GA. ga.js script gets loaded furthe down
+      var sessionCookieName = 'scratchsessionsid';
+      var _gaq = window._gaq || [];
+      _gaq.push(['_setAccount', 'UA-30688952-1']);
+      _gaq.push(['_setSampleRate', '10']);
+      _gaq.push(['_trackPageview']);
+      
+      
+      
+      _gaq.push(['_setCustomVar', 2, 'status', 'logged_in', 2]);
+      
+      
+
+      
+    </script>
+    <script type="text/javascript">
+        function getCookie(name) {
+            var cookieValue = null;
+            if (document.cookie && document.cookie != '') {
+                var cookies = document.cookie.split(';');
+                for (var i = 0; i < cookies.length; i++) {
+                    var cookie = jQuery.trim(cookies[i]);
+                    // Does this cookie string begin with the name we want?
+                    if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+
+        function setCookie(name, value, days) {
+            var expires;
+
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toGMTString();
+            } else {
+                expires = "";
+            }
+            document.cookie = escape(name) + "=" + escape(value) + expires + "; path=/";
+        }
+    </script>
+    
+  <script>
+    
+
+var Scratch = Scratch || {};
+Scratch.INIT_DATA = Scratch.INIT_DATA || {};
+
+
+
+Scratch.INIT_DATA.ADMIN = false;
+Scratch.INIT_DATA.LOGGED_IN_USER = {
+  
+  model: {
+    username: 'tsumuri4',
+    username_truncated: 'tsumuri4',
+    has_outstanding_email_confirmation: 'false',
+    
+    id: 60734300,
+    profile_url: '/users/tsumuri4/',
+    thumbnail_url: '//uploads.scratch.mit.edu/users/avatars/60734300.png'
+     
+  },
+  
+  options: {
+    
+      authenticated: true
+     
+    
+  
+
+  
+  ,follower: true
+  
+
+
+  }
+};
+Scratch.INIT_DATA.comment_posting = true;
+
+Scratch.INIT_DATA.BROWSERS_SUPPORTED = {
+
+  chrome: 35,
+  firefox: 31,
+  msie: 8,
+  safari: 7
+};
+
+Scratch.INIT_DATA.TEMPLATE_CUES = {
+
+  unsupported_browser: true,
+  welcome: true,
+  confirmed_email: false
+};
+  
+
+
+
+Scratch.INIT_DATA.PROFILE = {
+  model: {
+    id: 'tsumuri3',
+    userId: 33702239,
+    username: 'tsumuri3',
+    thumbnail_url: '//uploads.scratch.mit.edu/users/avatars/33702239.png',
+    comments_allowed: true
+  },
+  related_counts: {
+  }
+   
+  ,featuredProject: {
+    title: '100%penきれいな模様',
+    id: 463090457, 
+    creator: 'tsumuri3',
+    isPublished: true,
+  },
+  featuredProjectLabel: "注目のプロジェクト"
+ 
+}  
+Scratch.INIT_DATA.ADMIN_PANEL = {
+  'adminURL': '/users/tsumuri3/admin/'
+}
+
+
+
+
+Scratch.INIT_DATA.IS_IP_BANNED = false;
+
+Scratch.INIT_DATA.GLOBAL_URLS = {
+  'media_url': '//uploads.scratch.mit.edu/',
+  'static_url': '//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__/',
+  'static_path': '/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__/'
+}
+
+Scratch.INIT_DATA.IS_SOCIAL = true;
+
+Scratch.ALERT_MSGS = {
+  'error': 'Oops! Something went wrong',
+  'inappropriate-generic': 'Hmm...the bad word detector thinks there is a problem with your text. Please change it and remember to <a target="_blank" href="/community_guidelines/">be respectful</a>.',
+  'image-invalid': 'Upload a valid image. The file you uploaded was either not an image or a corrupted image.',
+  'thumbnail-missing': 'Missing file',
+  'thumbnail-upload-bad': 'Bad upload',
+  'thumbnail-too-large': 'Maximum file size is 512 KB and less than 500x500 pixels.',
+
+  'inappropriate-comment': 'Hmm...the bad word detector thinks there is a problem with your comment. Please change it and remember to <a target="_blank" href="/community_guidelines/">be respectful</a>.',
+  'comment-has-chat-site': 'Uh oh! This comment contains a link to a website with unmoderated chat. For safety reasons, please do not link to these sites!',
+
+  'empty-comment': "You can't post an empty comment!",
+  'delete_comment': '<div title="Delete Comment?"><p>Are you sure you want to delete this comment? If the comment is mean or disrespectful, please click report instead, to let the Scratch Team know about it.</p></div>',
+  'report_comment': '<div title="Report Comment?"></p>Are you sure you want to report this comment?</p></div>',
+  'report_comment_educator': '<div title="Delete Comment?"></p>Are you sure you want to delete this comment?</p></div>',
+  'followed': 'You are now following ',
+  'unfollowed': 'You are no longer following ',
+  'comment-spam': "Hmm, seems like you've posted the same comment a bunch of times. Please don't spam.",
+  'comment-flood': "Woah, seems like you're commenting really quickly. Please wait longer between posts.",
+  'comment-muted': "Hmm, the filterbot is pretty sure your recent comments weren't ok for Scratch, so your account has been muted for the rest of the day. :/",
+  'comment-muted-duration': "Hmm, the filterbot is pretty sure your recent comments weren't ok for Scratch, so you cannot make comments until %(duration)s",
+  'comment-unconstructive': "Hmm, the filterbot thinks your comment may be mean or disrespectful. Remember, most projects on Scratch are made by people who are just learning how to program. Read the <a href='/community_guidelines'>community guidelines</a>, and be nice.",
+  'comment-unconstructive-duration': "The Scratch comment filter thinks your comment was unconstructive. You won't be able to post comments until %(duration)s.",
+  'comment-disallowed': "Hmm, it looks like comments have been turned off for this page. :/",
+  'project-complaint-length': "That's too short. Please describe in detail what's inappropriate or disrespectful about the project.",
+  'project-complaint-buglength': "That's too short! Please describe in detail what you expected the project to do, and how exactly it is broken. Thanks!",
+  'editable-text-too-long': "That's too long! Please find a way to shorten your text."
+
+  ,'bio-changed': 'Changes saved',
+  'status-changed': 'Changes saved', 
+  'thumbnail-changed': 'Thumbnail changed',
+  'featured-updated': 'Featured project updated',
+
+}
+
+
+  </script>
+
+
+    <meta property="og:type" content="website">
+    
+    <meta property="og:description" content="Make games, stories and interactive art with Scratch. (scratch.mit.edu)">
+    
+
+    
+    <meta property="og:title" content="Scratch - Imagine, Program, Share">
+    <meta property="og:url" content="https://scratch.mit.edu/users/tsumuri3/">
+    
+
+  </head>
+
+  <body class="">
+  <!--[if lte IE 8]>
+  <div class="unsupported-browser banner" data-cue="unsupported_browser">
+    <div class="container">
+      <span>Scratch supports Internet Explorer 9+. We suggest you upgrade to <a href="/info/faq/#requirements">a supported browser</a>, <a href="/scratch2download/">download the offline editor</a>, or <a href="https://en.scratch-wiki.info/wiki/List_of_Bug_Workarounds">read about common workarounds</a>.</span>
+    </div>
+  </div>
+  <![endif]-->
+    <div id="pagewrapper">
+      
+      
+      <div id="topnav">
+      <div class="innerwrap">
+        <div class="container">
+          <a href="/" class="logo"><span class="scratch"></span></a>
+          <ul class="site-nav">
+            <li><a id="project-create" href="/projects/editor/">作る</a></li><li><a href="/explore/projects/all">見る</a></li><li><a href="/ideas">アイデア</a></li><li class="last"><a href="/about/">Scratchについて</a></li>
+          </ul>
+          
+          <form class="search" action="/search/projects" method="get">
+            <input type="submit" class="glass" value="">
+            
+	          <input id="search-input" type="text" placeholder="検索" name="q">
+          </form>
+          
+          
+          <ul class="account-nav logged-in"><li class="messages"><a title="メッセージ - 更新情報とお知らせ" href="/messages" class="messages-icon"><span class="notificationsCount none" style="top: 4px;">2</span></a></li><li class="my-stuff"><a title="私の作品 - 作品の管理と制作の場所" href="/mystuff/" class="mystuff-icon"></a></li><li class="logged-in-user dropdown"><span class="user-name dropdown-toggle" data-toggle="dropdown"><img class="user-icon" src="//uploads.scratch.mit.edu/users/avatars/60734300.png" width="24" height="24">tsumuri4<span class="caret"></span></span><div class="dropdown-menu blue"><ul class="user-nav"><li><a href="/users/tsumuri4/">プロフィール</a></li><li><a href="/mystuff/">私の作品</a></li><li><a href="/accounts/settings/">アカウント設定</a></li><li id="logout" class="logout divider"><form method="post" action="/accounts/logout/"><input type="hidden" name="csrfmiddlewaretoken" value="vJzvBYiBoFqYy5oVaLjq78852IHJU2tr"><input type="submit" value="サインアウト"></form></li></ul></div></li></ul>
+          
+          <script type="text/template" id="template-account-nav-logged-out">
+          <ul class="account-nav" >
+              <li class="join-scratch"><a href="/join">Scratchに参加しよう</a></li><li id="login-dropdown" class="sign-in dropdown"><span data-toggle="dropdown" class="dropdown-toggle"><span>サインイン</span></span><div class="popover bottom dropdown-menu"><div class="arrow"></div><div class="popover-content" ><form method="post" id="login" action="#"><label for="username">ユーザー名</label><input type="text" id="login_dropdown_username" name="username" maxlength="30" class="wide username" /><label for="password" class="password">パスワード</label><input type="password" name="password" class="wide password" /><div class="ajax-loader" style="display:none; float: left;"></div><button type="submit">サインイン</button><span class="forgot-password"><a href="/accounts/password_reset/">ヘルプが必要ですか?</a></span><div class="error"></div></form></div></div></li><li data-control="modal-login" class="sign-in mobile"><span>サインイン</span></li>
+          </ul>
+          </script>
+          <script type="text/template" id="template-account-nav-logged-in">
+          <ul class="account-nav logged-in"><li class="messages"><a title="メッセージ - 更新情報とお知らせ" href="/messages" class="messages-icon"><span class="notificationsCount none">0</span></a></li><li class="my-stuff"><a title="私の作品 - 作品の管理と制作の場所" href="/mystuff/" class="mystuff-icon"></a></li><li class="logged-in-user dropdown"><span class="user-name dropdown-toggle" data-toggle="dropdown"><img class="user-icon" src="<%- LOGGED_IN_USER.model.thumbnail_url %>" width="24" height="24"><%- LOGGED_IN_USER.model.username_truncated %><span class="caret"></span></span><div class="dropdown-menu blue" ><ul class="user-nav"><li><a href="<%- LOGGED_IN_USER.model.profile_url %>">プロフィール</a></li><li><a href="/mystuff/">私の作品</a></li><% if (LOGGED_IN_USER.model.is_educator){ %><li><a href="/educators/classes/">私のクラス</a></li><% } %><% if (LOGGED_IN_USER.model.is_student){ %><li><a href="/classes/<%- LOGGED_IN_USER.model.classroom_id %>/">自分のクラス</a></li><% } %><li><a href="/accounts/settings/">アカウント設定</a></li><li id="logout" class="logout divider"><form method="post" action="/accounts/logout/"><input type='hidden' name='csrfmiddlewaretoken' value='vJzvBYiBoFqYy5oVaLjq78852IHJU2tr' /><input type="submit" value="サインアウト"></form></li></ul></div></li></ul>
+          </script>
+          <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__/js/account-nav.js"></script>
+        </div>
+        <iframe class="iframeshim" frameborder="0" scrolling="no"><html><head></head><body></body></html></iframe>
+      </div><!-- innerwrap -->
+      </div>
+        
+
+      <div class="confirm-email banner" data-cue="confirmed_email" style="display:none;">
+        <div class="container">
+          
+          <span>共有機能を使うには、<a id="confirm-email-popup" href="#">あなたのメールアドレスを認証してください</a>。<a href="/help/faq/#accounts">なにかお困りですか？</a></span>
+          <div class="close">x</div>
+        </div>
+      </div>
+
+      <div class="email-outage banner" style="display:none; background-color:#FF661A;">
+        <div class="container">
+          <span>We are experiencing a disruption with email delivery. If you are not receiving emails from us, please try after 8am EST.</span>
+          <div class="close">x</div>
+        </div>
+      </div>
+
+        
+        <div class="container" id="content">
+        <div id="alert-view"></div>
+        
+
+
+  
+
+<!-- templates/profiles/profile_detail.html block main-content -->
+<div class="box" id="profile-data">
+  <div class="box-head">
+    <form id="profile-avatar" class="portrait">
+      <div class="avatar">
+      <a href="/users/tsumuri3/">
+        <img src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="55" height="55">
+        <div class="loading-img s48"></div>
+      </a>
+      
+        
+      
+    </div>
+    </form>
+    <div class="header-text">
+      <h2>tsumuri3</h2>
+      <p class="profile-details">
+      
+      <span class="group">
+        Scratchチーム
+         
+        
+      </span> 
+      <span title="2000-01-01">2&nbsp;年, 6&nbsp;ヶ月</span> 前に参加
+      <span class="location">Japan</span>
+      </p>
+    </div>
+    
+    <div id="follow-button" class="buttons">
+      
+
+<div class="follow-button button following grey" data-control="unfollow">
+	<span class="follow text"><span class="icon-sm follower white"></span>フォローする</span>
+	<span class="unfollow text"><span class="icon-sm follower black"></span>フォローをやめられない</span>
+</div>
+
+
+    </div>
+    
+  </div>
+  <div class="box-content" id="profile-box">
+    <div class="action-bar">
+      <div id="alert-view" class="">
+      </div>
+    </div>
+    <div class="inner clearfix">
+      <div class="user-content">
+        <div id="user-details" class="about">
+          <div class="loading-img s48"></div>
+          <h3>私について</h3>
+          
+            
+              
+              <div id="bio-readonly" class="read-only">
+                <div class="viewport" style="overflow: auto;">
+                  <p class="overview">かたつむり好きな、小6の男子です。<br>現在フォロワー数日本1,676位<br>https://tsumuri3.github.io/homepage/tsumuri<br>http://plsk.net/tsumuri3-profile<br>より詳しプロフィールが見たい方はこちらへ<br>t̴̩̫̘͙̃͒́s̸̖̔ͅu̴̯͒͠m̸̢̛͔͇͖̻̘̮͍̦̓̋̊͐̍̑̑͝u̴̯͒͠r̶̭̮̰̓͜͝í̵͈̰̞̼̝̘̫̦̠̪̌̏̑</p>
+                </div>
+              </div>
+            
+          
+
+          <h3>私が取り組んでいること</h3>
+          
+          
+          <div id="status-readonly" class="read-only">
+            <div class="viewport" style="overflow: auto;">
+              <p class="overview">❎✅<br><a href="https://beta.scratch.mit.edu/users/tsumuri3/">https://beta.scratch.mit.edu/users/tsumuri3/</a><br><a href="https://preview.scratch.mit.edu/users/tsumuri3/">https://preview.scratch.mit.edu/users/tsumuri3/</a><br><a href="https://uploads.scratch.mit.edu/users/tsumuri3/">https://uploads.scratch.mit.edu/users/tsumuri3/</a></p>
+            </div>
+          </div>
+          
+          
+        </div>
+
+        
+            <div class="player">
+                <h3 class="featured-project-heading">注目のプロジェクト</h3>
+                <div class="stage" style="width: 282px;">
+                    <a href="/projects/463090457/" id="featured-project">
+                        <img src="//uploads.scratch.mit.edu/projects/thumbnails/463090457.png" width="282" height="210" alt="Featured project">
+                        
+                    </a>
+                </div>
+                <span class="title">
+                    <a class="project-name" href="/projects/463090457/">100%penきれいな模様</a>
+                </span>
+
+            </div>
+        
+      </div>
+        <div class="doing">
+            <h3>私が行ったこと</h3>
+          <div id="activity-feed"><!-- templates/notifications/includes/user-feed.html -->
+
+
+
+
+
+
+<ul class="activity-stream">
+  
+  
+  <li>
+    <span class="icon-xs black follower"></span>
+    <div>
+      <span class="actor">tsumuri3</span>
+      フォローしている 
+      <a href="/users/kotayoshi/">kotayoshi</a>
+      <span data-tag="time" class="time">37&nbsp;分 前</span>
+    </div>
+  </li>
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  <li>
+   <span class="icon-xs black favorite"></span>
+   <div>
+     <span class="actor">tsumuri3</span> 
+     お気に入り
+     <a href="/projects/465383733/">自由テキストを文字化けメーカー！ </a>
+     <span data-tag="time" class="time">1&nbsp;時間, 11&nbsp;分 前</span>
+   </div>
+  </li>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  <li>
+   <span class="icon-xs black love"></span>
+   <div>
+     <span class="actor">tsumuri3</span> 
+     好き
+     <a href="/projects/465383733/">自由テキストを文字化けメーカー！ </a>
+     <span data-tag="time" class="time">1&nbsp;時間, 11&nbsp;分 前</span>
+   </div>
+  </li>
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  <li>
+   <span class="icon-xs black favorite"></span>
+   <div>
+     <span class="actor">tsumuri3</span> 
+     お気に入り
+     <a href="/projects/466628253/">進め! / Go! (スマホ対応)</a>
+     <span data-tag="time" class="time">1&nbsp;時間, 33&nbsp;分 前</span>
+   </div>
+  </li>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  <li>
+   <span class="icon-xs black love"></span>
+   <div>
+     <span class="actor">tsumuri3</span> 
+     好き
+     <a href="/projects/466628253/">進め! / Go! (スマホ対応)</a>
+     <span data-tag="time" class="time">1&nbsp;時間, 33&nbsp;分 前</span>
+   </div>
+  </li>
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  <li>
+   <span class="icon-xs black favorite"></span>
+   <div>
+     <span class="actor">tsumuri3</span> 
+     お気に入り
+     <a href="/projects/434807730/">実況用キーボードマウスの使い方！</a>
+     <span data-tag="time" class="time">1&nbsp;日, 1&nbsp;時間 前</span>
+   </div>
+  </li>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+</ul>
+</div>
+        </div>
+    </div>
+  </div>
+  <div class="footer">
+  
+    <div class="action" id="report-this">
+      <span class="text black" data-control="open-report">このプロフィールを報告</span>
+    </div>
+   
+  </div>
+</div>
+<div class="profile-box-footer-module" id="profile-box-footer">
+</div>
+
+
+
+
+<div class="box slider-carousel-container prevent-select">
+  <div class="box-head">
+      <h4>共有したプロジェクト (42)</h4>
+    <a href="/users/tsumuri3/projects/" data-control="view-all">すべてを見る</a>
+  </div>
+  <div class="box-content slider-carousel horizontal sliderCarousel" id="shared" style="height: 164.5px;">
+    
+    <div class="viewport" style="overflow: hidden; height: 154.5px;">
+      <ul class="scroll-content" style="width: 3489px; overflow: hidden; left: 0px;">
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/463090457/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/463090457.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/463090457.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/463090457/">100%penきれいな模様</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/tsumuri3/">tsumuri3</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/459525693/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/459525693.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/459525693.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/459525693/">ユーザー名でもやってみた</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/tsumuri3/">tsumuri3</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/458808656/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/458808656.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/458808656.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/458808656/">利用規約日本語訳</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/tsumuri3/">tsumuri3</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/457034892/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/457034892.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/457034892.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/457034892/">報告</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/tsumuri3/">tsumuri3</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/447598033/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/447598033.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/447598033.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/447598033/">文字アート作成機</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/tsumuri3/">tsumuri3</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/402754982/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/402754982.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/402754982.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/402754982/">行け！つむり君　第二版</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/tsumuri3/">tsumuri3</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/442037868/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/442037868.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/442037868.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/442037868/">314 remix</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/tsumuri3/">tsumuri3</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/432094034/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/432094034.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/432094034.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/432094034/">0%edit text漢字素材</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/tsumuri3/">tsumuri3</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/440083679/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/440083679.png" width="144" height="108" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC">
+  </a>
+  <span class="title">
+    <a href="/projects/440083679/">合格者発表</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/tsumuri3/">tsumuri3</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/436640146/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/436640146.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/436640146.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/436640146/">行け！つむり君 8bitレトロ版</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/tsumuri3/">tsumuri3</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/396470828/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/396470828.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/396470828.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/396470828/">行け！つむり君</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/tsumuri3/">tsumuri3</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/435271308/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/435271308.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/435271308.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/435271308/">クラウドリスト(日本語対応版)</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/tsumuri3/">tsumuri3</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/436110916/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/436110916.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/436110916.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/436110916/">円の面積と円周計算機 remix</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/tsumuri3/">tsumuri3</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/426448323/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/426448323.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/426448323.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/426448323/">コード無し</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/tsumuri3/">tsumuri3</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/437439204/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/437439204.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/437439204.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/437439204/">scratch知識ベーシック検定3級</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/tsumuri3/">tsumuri3</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/399015497/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/399015497.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/399015497.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/399015497/">行け！つむり君（期間限定反重力版）</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/tsumuri3/">tsumuri3</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/410909520/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/410909520.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/410909520.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/410909520/">行け！つむり君オンラインセーブ版</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/tsumuri3/">tsumuri3</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/434405102/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/434405102.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/434405102.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/434405102/">クワイン</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/tsumuri3/">tsumuri3</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/412932781/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/412932781.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/412932781.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/412932781/">見た人を保存する</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/tsumuri3/">tsumuri3</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/428876840/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/428876840.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/428876840.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/428876840/">中を見る</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/tsumuri3/">tsumuri3</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+      </ul>
+    </div><a class="slider-carousel-control left arrow-left off" href="#">‹</a><a class="slider-carousel-control right arrow-right on" href="#">›</a>
+    
+  <div class="scrollbar" style="width: 852px;"><div class="track" style="width: 852px;"><div class="handle" style="left: 0px; width: 207.995px;"><div class="end"></div></div></div></div></div>
+</div>
+
+
+
+<div class="box slider-carousel-container prevent-select">
+  <div class="box-head">
+      <h4>お気に入りのプロジェクト</h4>
+    <a href="/users/tsumuri3/favorites/" data-control="view-all">すべてを見る</a>
+  </div>
+  <div class="box-content slider-carousel horizontal sliderCarousel" id="favorites" style="height: 164.5px;">
+    
+    <div class="viewport" style="overflow: hidden; height: 154.5px;">
+      <ul class="scroll-content" style="width: 3489px; overflow: hidden; left: 0px;">
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/465383733/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/465383733.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/465383733.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/465383733/">自由テキストを文字化けメーカー！ </a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/nemuei/">nemuei</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/466628253/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/466628253.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/466628253.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/466628253/">進め! / Go! (スマホ対応)</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/nekophon/">nekophon</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/434807730/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/434807730.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/434807730.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/434807730/">実況用キーボードマウスの使い方！</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/Pinosuke_c6/">Pinosuke_c6</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/287117646/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/287117646.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/287117646.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/287117646/">プログラマーっぽい雰囲気のPTE</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/yukku/">yukku</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/457034892/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/457034892.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/457034892.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/457034892/">報告</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/tsumuri3/">tsumuri3</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/108689224/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/10868/9224.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/10868/9224.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/108689224/">なにか</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/yukku/">yukku</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/125782022/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/12578/2022.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/12578/2022.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/125782022/">1000次元リストブロック</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/yukku/">yukku</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/283463067/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/283463067.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/283463067.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/283463067/">新・yukkuの便利ツール</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/yukku/">yukku</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/122660184/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/12266/0184.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/12266/0184.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/122660184/">Scratchにはいろいろな円の描き方があります。</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/yukku/">yukku</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/465192316/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/465192316.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/465192316.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/465192316/">TNTendさんへ!&amp;土下座　Icon for TNTend </a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/nekophon/">nekophon</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/465747435/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/465747435.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/465747435.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/465747435/">なむへ Icon for 76namu!(100%ベクター)</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/nekophon/">nekophon</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/465216781/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/465216781.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/465216781.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/465216781/">THE SHAKURE RISU (しゃくれりす)</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/nekophon/">nekophon</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/464674734/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/464674734.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/464674734.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/464674734/">リアルタイムイラストメイキング</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/nekophon/">nekophon</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/465181464/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/465181464.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/465181464.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/465181464/">(ベクター絵)おめめ Eyes</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/nekophon/">nekophon</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/460274474/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/460274474.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/460274474.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/460274474/">3D Maths</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/yuzupon1133/">yuzupon1133</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/464066510/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/464066510.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/464066510.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/464066510/">無題</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/nekophon/">nekophon</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/463421544/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/463421544.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/463421544.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/463421544/">ロード画面のような</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/yuzupon1133/">yuzupon1133</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/452540528/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/452540528.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/452540528.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/452540528/">WALK || -A Platformer-</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/yuhaku/">yuhaku</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/389010764/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/389010764.png" width="144" height="108" src="//uploads.scratch.mit.edu/projects/thumbnails/389010764.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/389010764/">3D迷路「初めてのレイキャスティング」</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/yukku/">yukku</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/461406909/">
+    <img class="lazy image" data-original="//uploads.scratch.mit.edu/projects/thumbnails/461406909.png" width="144" height="108" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC">
+  </a>
+  <span class="title">
+    <a href="/projects/461406909/">うわっ！なんか問題が発生しました！</a>
+  </span>
+  <span class="owner">
+      
+        
+            書いた人 <a href="/users/yuyu_02/">yuyu_02</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+      </ul>
+    </div><a class="slider-carousel-control left arrow-left off" href="#">‹</a><a class="slider-carousel-control right arrow-right on" href="#">›</a>
+    
+
+  <div class="scrollbar" style="width: 852px;"><div class="track" style="width: 852px;"><div class="handle" style="left: 0px; width: 207.995px;"><div class="end"></div></div></div></div></div>
+</div>
+
+
+
+
+<div class="box slider-carousel-container prevent-select">
+  <div class="box-head">
+      <h4>私がフォローしているスタジオ</h4>
+    <a href="/users/tsumuri3/studios_following/" data-control="view-all">すべてを見る</a>
+  </div>
+  <div class="box-content slider-carousel horizontal sliderCarousel" id="featured" style="height: 151.5px;">
+    <div class="viewport" style="overflow: hidden; height: 141.5px;">
+      <ul class="scroll-content" style="width: 4200px; overflow: hidden; left: 0px;">
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/28307244/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/28307244/">すごい綺麗なのできたからぜひ見てほしいです100%pen
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/28149808/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/28149808.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/28149808.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/28149808/">さよの家
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/28228845/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/28228845.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/28228845.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/28228845/">【緊急】ぴょん様のブロック解除についての議論所
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27991665/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27991665/">名前決まりました！
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27973251/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27973251/">【拡張希望】楽譜制作アプリver.0.5が誕生！
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27723016/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27723016/">小学5年生必見!!!　算数講座
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27903535/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27903535/">協力お願いします‼
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/25895627/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/25895627/">数学好きの会
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27785778/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27785778/">Untitled Studio
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27698951/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/27698951.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/27698951.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27698951/">Mini Japanese Scratch Wiki の記事を募集中
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27115200/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/27115200.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/27115200.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27115200/">nekopyon様　ファンクラブ！
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27688518/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/27688518.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/27688518.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27688518/">問題集「無限大」
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27695743/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/27695743.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/27695743.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27695743/">Scratch History
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27125906/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/27125906.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/27125906.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27125906/">nekopyonへの疑問･相談･改善してほしい点。
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/26995976/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/26995976.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/26995976.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/26995976/">0% Edit Textのスタジオ
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27651861/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27651861/">久しぶりの活動　　「ドラえもん研究科」
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27650882/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27650882/">19式メーカーを使うのはダメだけど、
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27632792/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27632792/">「sky platformer」　見てくださi((殴(ついでに拡ｓ((
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27377705/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27377705/">参照数2500回突破！！！　みんなありがとう　拡散希望
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27605208/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27605208/">関係者以外見ないで
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+      </ul>
+    </div><a class="slider-carousel-control left arrow-left off" href="#">‹</a><a class="slider-carousel-control right arrow-right on" href="#">›</a>
+  <div class="scrollbar" style="width: 852px;"><div class="track" style="width: 852px;"><div class="handle" style="left: 0px; width: 172.834px;"><div class="end"></div></div></div></div></div>
+</div>
+
+
+
+
+
+<div class="box slider-carousel-container prevent-select">
+  <div class="box-head">
+      <h4>私がキュレーションしたスタジオ</h4>
+    <a href="/users/tsumuri3/studios/" data-control="view-all">すべてを見る</a>
+  </div>
+  <div class="box-content slider-carousel horizontal sliderCarousel" id="featured" style="height: 151.5px;">
+    <div class="viewport" style="overflow: hidden; height: 141.5px;">
+      <ul class="scroll-content" style="width: 4200px; overflow: hidden; left: 0px;">
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/28369278/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/28369278.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/28369278.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/28369278/">ProjectCloneのスタジオ
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/28326621/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/28326621/">--
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/28307244/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/28307244/">すごい綺麗なのできたからぜひ見てほしいです100%pen
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/28280680/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/28280680/">皆さんに、思うことと、確認
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/28228845/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/28228845.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/28228845.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/28228845/">【緊急】ぴょん様のブロック解除についての議論所
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27991754/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/27991754.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/27991754.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27991754/">プラットフォーマー見て
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27780889/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/27780889.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/27780889.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27780889/">1+1=2の証明
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27973251/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27973251/">【拡張希望】楽譜制作アプリver.0.5が誕生！
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27947875/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/27947875.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/27947875.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27947875/">フォロワー様150人突破
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27723016/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27723016/">小学5年生必見!!!　算数講座
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27903535/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27903535/">協力お願いします‼
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27902047/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/27902047.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/27902047.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27902047/">Happy birth day! @nekopyon
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/25895627/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/25895627/">数学好きの会
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27785778/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27785778/">Untitled Studio
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27780182/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27780182/">あなたのPCにもこのソフトがあったら削除した方がいいです（いい情報があったので提供です）
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27698951/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/27698951.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/27698951.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27698951/">Mini Japanese Scratch Wiki の記事を募集中
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27115200/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/27115200.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/27115200.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27115200/">nekopyon様　ファンクラブ！
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/26995976/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/26995976.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/26995976.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/26995976/">0% Edit Textのスタジオ
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27651861/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27651861/">久しぶりの活動　　「ドラえもん研究科」
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27650882/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" width="170" height="100" src="//uploads.scratch.mit.edu/galleries/thumbnails/default.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27650882/">19式メーカーを使うのはダメだけど、
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+      </ul>
+    </div><a class="slider-carousel-control left arrow-left off" href="#">‹</a><a class="slider-carousel-control right arrow-right on" href="#">›</a>
+  <div class="scrollbar" style="width: 852px;"><div class="track" style="width: 852px;"><div class="handle" style="left: 0px; width: 172.834px;"><div class="end"></div></div></div></div></div>
+</div>
+
+
+
+
+
+<div class="box slider-carousel-container prevent-select">
+  <div class="box-head">
+    <h4>フォロー</h4>
+    <a href="/users/tsumuri3/following/" data-control="view-all">すべてを見る</a>
+  </div>
+  <div class="box-content slider-carousel horizontal sliderCarousel" id="featured" style="height: 101.5px;">
+    
+    <div class="viewport" style="overflow: hidden; height: 91.5px;">
+      <ul class="scroll-content" style="width: 1909px; overflow: hidden; left: 0px;">
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/kotayoshi/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/62478978.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/62478978.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/kotayoshi/">kotayoshi
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/Pinosuke_c6/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/62725524.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/62725524.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/Pinosuke_c6/">Pinosuke_c6
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/-p-e-n-/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/26293407.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/26293407.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/-p-e-n-/">-p-e-n-
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/parman92/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/23200071.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/23200071.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/parman92/">parman92
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/meganesan/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/22884368.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/22884368.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/meganesan/">meganesan
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/CCP201937/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/56749363.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/56749363.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/CCP201937/">CCP201937
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/kinakon773/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/29783107.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/29783107.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/kinakon773/">kinakon773
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/ribon__cat2009/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/63708671.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/63708671.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/ribon__cat2009/">ribon__cat2009
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/Taiki0504/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/57915762.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/57915762.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/Taiki0504/">Taiki0504
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/hachimitsu_lemon_tea/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/62298363.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/62298363.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/hachimitsu_lemon_tea/">hachimitsu_lemon_tea
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/ayanyon/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/61823518.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/61823518.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/ayanyon/">ayanyon
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/Furafuramentaiko/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/64392403.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/64392403.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/Furafuramentaiko/">Furafuramentaiko
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/TNTend/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/34785911.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/34785911.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/TNTend/">TNTend
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/miru87/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/60253384.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/60253384.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/miru87/">miru87
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/aipi/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/16624837.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/16624837.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/aipi/">aipi
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/nekophon/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/69039930.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/69039930.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/nekophon/">nekophon
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/hhayyatto/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/16524873.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/16524873.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/hhayyatto/">hhayyatto
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/yuzupon1133/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/18881924.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/18881924.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/yuzupon1133/">yuzupon1133
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/aogaku/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/50186737.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/50186737.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/aogaku/">aogaku
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/ringoumai/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/38686296.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/38686296.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/ringoumai/">ringoumai
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+      </ul>
+    </div><a class="slider-carousel-control left arrow-left off" href="#">‹</a><a class="slider-carousel-control right arrow-right on" href="#">›</a>
+    
+  <div class="scrollbar" style="width: 852px;"><div class="track" style="width: 852px;"><div class="handle" style="left: 0px; width: 380.054px;"><div class="end"></div></div></div></div></div>
+</div>
+
+
+
+
+
+
+<div class="box slider-carousel-container prevent-select">
+  <div class="box-head">
+    <h4>フォロワー</h4>
+    <a href="/users/tsumuri3/followers/" data-control="view-all">すべてを見る</a>
+  </div>
+  <div class="box-content slider-carousel horizontal sliderCarousel" id="featured" style="height: 101.5px;">
+    <div class="viewport" style="overflow: hidden; height: 91.5px;">
+      <ul class="scroll-content" style="width: 1909px; overflow: hidden; left: 0px;">
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/Pinosuke_c6/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/62725524.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/62725524.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/Pinosuke_c6/">Pinosuke_c6
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/akku--n11/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/56242680.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/56242680.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/akku--n11/">akku--n11
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/meganesan/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/22884368.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/22884368.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/meganesan/">meganesan
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/tamagotchigamer5/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/54461557.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/54461557.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/tamagotchigamer5/">tamagotchigamer5
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/CCP201937/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/56749363.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/56749363.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/CCP201937/">CCP201937
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/tugutan/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/default.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/default.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/tugutan/">tugutan
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/kinakon773/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/29783107.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/29783107.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/kinakon773/">kinakon773
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/ribon__cat2009/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/63708671.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/63708671.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/ribon__cat2009/">ribon__cat2009
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/hachimitsu_lemon_tea/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/62298363.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/62298363.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/hachimitsu_lemon_tea/">hachimitsu_lemon_tea
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/Taiki0504/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/57915762.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/57915762.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/Taiki0504/">Taiki0504
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/Furafuramentaiko/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/64392403.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/64392403.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/Furafuramentaiko/">Furafuramentaiko
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/maronntyann-hosi/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/57586874.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/57586874.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/maronntyann-hosi/">maronntyann-hosi
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/miru87/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/60253384.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/60253384.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/miru87/">miru87
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/aogaku/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/50186737.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/50186737.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/aogaku/">aogaku
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/kinokun-himajin/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/65098718.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/65098718.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/kinokun-himajin/">kinokun-himajin
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/Im_lonely_wolf/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/59858845.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/59858845.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/Im_lonely_wolf/">Im_lonely_wolf
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/omowakagames/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/61478142.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/61478142.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/omowakagames/">omowakagames
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/umetiiflower/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/59194014.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/59194014.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/umetiiflower/">umetiiflower
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/nabe92/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/30551646.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/30551646.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/nabe92/">nabe92
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/oto213/">
+        <img class="lazy" data-original="//uploads.scratch.mit.edu/users/avatars/32681076.png" width="60" height="60" src="//uploads.scratch.mit.edu/users/avatars/32681076.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/oto213/">oto213
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+      </ul>
+    </div><a class="slider-carousel-control left arrow-left off" href="#">‹</a><a class="slider-carousel-control right arrow-right on" href="#">›</a>
+  <div class="scrollbar" style="width: 852px;"><div class="track" style="width: 852px;"><div class="handle" style="left: 0px; width: 380.054px;"><div class="end"></div></div></div></div></div>
+</div>
+
+
+
+<div class="box">
+  <div class="box-head">
+    <h4>コメント</h4>
+  </div>
+  <div class="box-content">
+    
+    
+
+
+
+<div id="comments">
+  
+  <div id="comment-form">
+    
+        <img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/60734300.png" width="45" height="45">
+    
+    
+        <form id="main-post-form" class="comments-on">
+            <div class="control-group tooltip right">
+                
+                <textarea name="content" placeholder="コメントを書く"></textarea>
+                
+                <span id="comment-alert" class="hovertext error" data-control="error" data-content="comment-error"><span class="arrow"></span><span class="text"></span></span>
+                <span class="small-text">残り、あと <span id="\&quot;chars-left\&quot;">500</span> 文字。</span>
+            </div>
+            <div class="control-group">
+                <div class="button small" data-control="post" data-parent-thread="" data-commentee-id=""><a href="#null">投稿</a></div>
+            <div class="button small grey" data-control="cancel"><a href="#null">キャンセル</a></div>
+                <span class="notification"></span>
+            </div>
+        </form>
+        
+    
+    <div class="clearfix"></div>
+  </div>
+  <div>
+    <ul class="comments" data-content="comments">
+      
+    
+<!-- templates/comments/list.html -->
+
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110920495" class="comment " data-comment-id="110920495">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+      
+        test
+      
+    </div>
+    <div>
+      <span class="time" title="12月 20, 2020">1日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110920495" data-parent-thread="110920495" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="110920495">
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply removed">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110920489" class="comment removed" data-comment-id="110920489">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+      
+        [deleted]
+      
+    </div>
+    <div>
+      <span class="time" title="12月 20, 2020">1日 前</span>
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="110920489">
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply removed">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110920414" class="comment removed" data-comment-id="110920414">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+      
+        [deleted]
+      
+    </div>
+    <div>
+      <span class="time" title="12月 20, 2020">1日 前</span>
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="110920414">
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply removed">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110920359" class="comment removed" data-comment-id="110920359">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+      
+        [deleted]
+      
+    </div>
+    <div>
+      <span class="time" title="12月 20, 2020">1日 前</span>
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="110920359">
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110920327" class="comment " data-comment-id="110920327">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+      
+         <a href="/users/nekosyon">@nekosyon</a>  <a href="/users/nekopyonpyon">@nekopyonpyon</a>  <a href="/users/nekomyon-sab">@nekomyon-sab</a>  <a href="/users/neko_myon">@neko_myon</a>  <a href="/users/nekoyon">@nekoyon</a>  <a href="/users/nekopyno">@nekopyno</a>  <a href="/users/NEKOPON">@NEKOPON</a>
+      
+    </div>
+    <div>
+      <span class="time" title="12月 20, 2020">1日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110920327" data-parent-thread="110920327" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="110920327">
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110903996" class="comment " data-comment-id="110903996">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+      
+        辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛幸辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛辛
+      
+    </div>
+    <div>
+      <span class="time" title="12月 19, 2020">1日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110903996" data-parent-thread="110903996" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="110903996">
+                
+                    <li class="reply">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110904089" class="comment " data-comment-id="110904089">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/tsumuri3">@tsumuri3</a>
+      
+      
+        辛いの中に1つだけ幸があります。
+      
+    </div>
+    <div>
+      <span class="time" title="12月 19, 2020">1日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110904089" data-parent-thread="110903996" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+                    <li class="reply last">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110911239" class="comment " data-comment-id="110911239">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/anmonaitosan" id="comment-user" data-comment-user="anmonaitosan"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/61040836.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/anmonaitosan">anmonaitosan</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/tsumuri3">@tsumuri3</a>
+      
+      
+        あった！
+      
+    </div>
+    <div>
+      <span class="time" title="12月 19, 2020">1日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110911239" data-parent-thread="110903996" data-commentee-id="61040836" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply removed">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110818869" class="comment removed" data-comment-id="110818869">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/okutopas" id="comment-user" data-comment-user="okutopas"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/34648880.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/okutopas">okutopas</a>
+    </div>
+    <div class="content">
+      
+      
+        [deleted]
+      
+    </div>
+    <div>
+      <span class="time" title="12月 19, 2020">2日 前</span>
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="110818869">
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110818397" class="comment " data-comment-id="110818397">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/bsahd" id="comment-user" data-comment-user="bsahd"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/42107291.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/bsahd">bsahd</a>
+    </div>
+    <div class="content">
+      
+      
+        "ProjectCloce"の専用アカウントの件なのですが、（合作用アカウントが）禁止されていますので削除・パスワード変更を御願いします。
+      
+    </div>
+    <div>
+      <span class="time" title="12月 19, 2020">2日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110818397" data-parent-thread="110818397" data-commentee-id="42107291" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="110818397">
+                
+                    <li class="reply">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110818727" class="comment " data-comment-id="110818727">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/bsahd" id="comment-user" data-comment-user="bsahd"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/42107291.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/bsahd">bsahd</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/bsahd">@bsahd</a>
+      
+      
+        あと、 http://plsk.net/tsumuri3-profile の"＝＝＝＝約束：荒らさないでください。荒らした場合、IPアドレスから本人特定して刑法第246条で裁きます。＝＝＝＝"は"PoolSketch"の"IDが分かれば誰でも編集できます。"ではありませんが。
+      
+    </div>
+    <div>
+      <span class="time" title="12月 19, 2020">2日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110818727" data-parent-thread="110818397" data-commentee-id="42107291" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+                    <li class="reply last">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110904173" class="comment " data-comment-id="110904173">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/bsahd">@bsahd</a>
+      
+      
+        あ、はい。朝ごはん食べ終わったら削除します。
+      
+    </div>
+    <div>
+      <span class="time" title="12月 19, 2020">1日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110904173" data-parent-thread="110818397" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110816232" class="comment " data-comment-id="110816232">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/MINITOMATO10" id="comment-user" data-comment-user="MINITOMATO10"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/59739274.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/MINITOMATO10">MINITOMATO10</a>
+    </div>
+    <div class="content">
+      
+      
+        署名増えてきたね。ちょっと安心した。
+      
+    </div>
+    <div>
+      <span class="time" title="12月 19, 2020">2日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110816232" data-parent-thread="110816232" data-commentee-id="59739274" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="110816232">
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110805066" class="comment " data-comment-id="110805066">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+      
+        卍連続コメントのテスト
+      
+    </div>
+    <div>
+      <span class="time" title="12月 19, 2020">2日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110805066" data-parent-thread="110805066" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="110805066">
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110805062" class="comment " data-comment-id="110805062">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+      
+        卍連続コメントのテスト
+      
+    </div>
+    <div>
+      <span class="time" title="12月 19, 2020">2日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110805062" data-parent-thread="110805062" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="110805062">
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110805061" class="comment " data-comment-id="110805061">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+      
+        卍連続コメントのテスト
+      
+    </div>
+    <div>
+      <span class="time" title="12月 19, 2020">2日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110805061" data-parent-thread="110805061" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="110805061">
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110805055" class="comment " data-comment-id="110805055">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+      
+        卍連続コメントのテスト
+      
+    </div>
+    <div>
+      <span class="time" title="12月 19, 2020">2日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110805055" data-parent-thread="110805055" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="110805055">
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110612519" class="comment " data-comment-id="110612519">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/katuennra" id="comment-user" data-comment-user="katuennra"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/59098391.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/katuennra">katuennra</a>
+    </div>
+    <div class="content">
+      
+      
+        あ、昨日の件についてですが…
+      
+    </div>
+    <div>
+      <span class="time" title="12月 18, 2020">3日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110612519" data-parent-thread="110612519" data-commentee-id="59098391" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="110612519">
+                
+                    <li class="reply">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110612654" class="comment " data-comment-id="110612654">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/katuennra">@katuennra</a>
+      
+      
+        あ、ごめんもう僕も時間。文章考えたら、このプロフィにコメントしといて。明日英文を言いいます。
+      
+    </div>
+    <div>
+      <span class="time" title="12月 18, 2020">3日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110612654" data-parent-thread="110612519" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+                    <li class="reply last">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110612698" class="comment " data-comment-id="110612698">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/katuennra" id="comment-user" data-comment-user="katuennra"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/59098391.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/katuennra">katuennra</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/tsumuri3">@tsumuri3</a>
+      
+      
+        あーい。
+      
+    </div>
+    <div>
+      <span class="time" title="12月 18, 2020">3日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110612698" data-parent-thread="110612519" data-commentee-id="59098391" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110605341" class="comment " data-comment-id="110605341">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/MINITOMATO10" id="comment-user" data-comment-user="MINITOMATO10"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/59739274.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/MINITOMATO10">MINITOMATO10</a>
+    </div>
+    <div class="content">
+      
+      
+        署名について、nekopyonさんのファンクラブの会長的なことやってるんだけど、よかったらそこに署名についてコメントしてもいい？
+      
+    </div>
+    <div>
+      <span class="time" title="12月 18, 2020">3日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110605341" data-parent-thread="110605341" data-commentee-id="59739274" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="110605341">
+                
+                    <li class="reply">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110605460" class="comment " data-comment-id="110605460">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/MINITOMATO10">@MINITOMATO10</a>
+      
+      
+        ”あの”アカウントのことを、一切書かなければいいよ。その時の文章は、(ちょっと待って。今書くから)
+      
+    </div>
+    <div>
+      <span class="time" title="12月 18, 2020">3日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110605460" data-parent-thread="110605341" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+                    <li class="reply">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110605567" class="comment " data-comment-id="110605567">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/MINITOMATO10">@MINITOMATO10</a>
+      
+      
+        <a href="https://scratch.mit.edu/studios/28338477/">https://scratch.mit.edu/studios/28338477/</a> に  <a href="/users/nekopyon">@nekopyon</a> のブロック解除に関連することを英語で一言お願いします。例は、もうすでにあるコメントを見てください。機械翻訳を使用する場合は逆翻訳で結果が似るようにお願いします。質問や雑談はしないで下さい。質問は、 <a href="/users/tsumuri3">@tsumuri3</a>まで。
+      
+    </div>
+    <div>
+      <span class="time" title="12月 18, 2020">3日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110605567" data-parent-thread="110605341" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+                    <li class="reply lastvisible">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110605576" class="comment " data-comment-id="110605576">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/MINITOMATO10">@MINITOMATO10</a>
+      
+      
+        って書いて。（コピペして。）
+      
+    </div>
+    <div>
+      <span class="time" title="12月 18, 2020">3日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110605576" data-parent-thread="110605341" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+                    <li class="reply truncated last">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110605916" class="comment " data-comment-id="110605916">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/MINITOMATO10" id="comment-user" data-comment-user="MINITOMATO10"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/59739274.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/MINITOMATO10">MINITOMATO10</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/tsumuri3">@tsumuri3</a>
+      
+      
+        おけ。
+      
+    </div>
+    <div>
+      <span class="time" title="12月 18, 2020">3日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110605916" data-parent-thread="110605341" data-commentee-id="59739274" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+            </ul>
+            
+                <div class="more-replies"><span class="pulldown">4 件の全ての返信を見る<span class="arrow"> ▼</span></span></div>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110400427" class="comment " data-comment-id="110400427">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/nakaokun" id="comment-user" data-comment-user="nakaokun"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/50012456.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/nakaokun">nakaokun</a>
+    </div>
+    <div class="content">
+      
+      
+        こんちは
+      
+    </div>
+    <div>
+      <span class="time" title="12月 17, 2020">4日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110400427" data-parent-thread="110400427" data-commentee-id="50012456" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="110400427">
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110388291" class="comment " data-comment-id="110388291">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/MINITOMATO10" id="comment-user" data-comment-user="MINITOMATO10"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/59739274.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/MINITOMATO10">MINITOMATO10</a>
+    </div>
+    <div class="content">
+      
+      
+        こんな漢字でいいのかな?とりあえず以下よろしく　
+_____________________________________________________________________Scratchteamのみなさんへ
+nekopyonさんがブロックされてから、日本のscratchは不適切なコメントや作品が増えています。
+だからこそ、nekopyonさんのブロックを解除しなければと思うのです。
+わたしは、nekopyonさんのために力を尽くす事を誓います。
+　by MINITOMATO10
+      
+    </div>
+    <div>
+      <span class="time" title="12月 17, 2020">4日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110388291" data-parent-thread="110388291" data-commentee-id="59739274" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="110388291">
+                
+                    <li class="reply">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110388570" class="comment " data-comment-id="110388570">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/MINITOMATO10" id="comment-user" data-comment-user="MINITOMATO10"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/59739274.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/MINITOMATO10">MINITOMATO10</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/MINITOMATO10">@MINITOMATO10</a>
+      
+      
+        訂正：こんな感じでいいのかな?とりあえず以下よろしく　 __________________________________________________Scratchteamのみなさんへ わたしはnekopyonさんがブロックされたことを聞きました。すごく悲しいです。nekopyonさんは高いプログラミング力を持っていて、日本のプログラミングに大きく貢献しました。
+だからこそ、nekopyonさんのブロックを解除しなければと思うのです。 わたしは、nekopyonさんのために力を尽くす事を誓います。 　by MINITOMATO10
+      
+    </div>
+    <div>
+      <span class="time" title="12月 17, 2020">4日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110388570" data-parent-thread="110388291" data-commentee-id="59739274" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+                    <li class="reply">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110600532" class="comment " data-comment-id="110600532">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/MINITOMATO10" id="comment-user" data-comment-user="MINITOMATO10"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/59739274.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/MINITOMATO10">MINITOMATO10</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/MINITOMATO10">@MINITOMATO10</a>
+      
+      
+        やっぱり自分で翻訳する。何回もごめん(´；ω；｀)
+      
+    </div>
+    <div>
+      <span class="time" title="12月 18, 2020">3日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110600532" data-parent-thread="110388291" data-commentee-id="59739274" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+                    <li class="reply lastvisible">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110603059" class="comment " data-comment-id="110603059">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/MINITOMATO10">@MINITOMATO10</a>
+      
+      
+        To everyone on the Scratch team Since nekopyon was blocked, Japanese scratch has been getting more inappropriate comments and works. That's why I think I have to unblock nekopyon. I pledge to do my best for nekopyon. By MINITOMATO10
+      
+    </div>
+    <div>
+      <span class="time" title="12月 18, 2020">3日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110603059" data-parent-thread="110388291" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+                    <li class="reply truncated">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110603070" class="comment " data-comment-id="110603070">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/MINITOMATO10">@MINITOMATO10</a>
+      
+      
+        一応翻訳した
+      
+    </div>
+    <div>
+      <span class="time" title="12月 18, 2020">3日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110603070" data-parent-thread="110388291" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+                    <li class="reply truncated">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110603115" class="comment " data-comment-id="110603115">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/MINITOMATO10" id="comment-user" data-comment-user="MINITOMATO10"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/59739274.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/MINITOMATO10">MINITOMATO10</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/tsumuri3">@tsumuri3</a>
+      
+      
+        ありがとう。一応ひかえめ版をあのスタジオにコメントした。
+      
+    </div>
+    <div>
+      <span class="time" title="12月 18, 2020">3日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110603115" data-parent-thread="110388291" data-commentee-id="59739274" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+                    <li class="reply truncated last">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-110603218" class="comment " data-comment-id="110603218">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/MINITOMATO10">@MINITOMATO10</a>
+      
+      
+        ありがとう！
+      
+    </div>
+    <div>
+      <span class="time" title="12月 18, 2020">3日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="110603218" data-parent-thread="110388291" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+            </ul>
+            
+                <div class="more-replies"><span class="pulldown">6 件の全ての返信を見る<span class="arrow"> ▼</span></span></div>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-109708815" class="comment " data-comment-id="109708815">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/TokyoBarrage" id="comment-user" data-comment-user="TokyoBarrage"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/66870323.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/TokyoBarrage">TokyoBarrage</a>
+    </div>
+    <div class="content">
+      
+      
+        ぴょんさんが <a href="/users/akkykun">@akkykun</a> 本垢の初期のフォロワーだったりする。
+あのスタジオに入れて欲しい。
+      
+    </div>
+    <div>
+      <span class="time" title="12月 14, 2020">7日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="109708815" data-parent-thread="109708815" data-commentee-id="66870323" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="109708815">
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-109542068" class="comment " data-comment-id="109542068">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/kinokun-himajin" id="comment-user" data-comment-user="kinokun-himajin"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/65098718.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/kinokun-himajin">kinokun-himajin</a>
+    </div>
+    <div class="content">
+      
+      
+        あの議論スタジオに入らせてください！
+(スタジオ目的でフォローした訳ではありませんので)
+      
+    </div>
+    <div>
+      <span class="time" title="12月 13, 2020">8日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="109542068" data-parent-thread="109542068" data-commentee-id="65098718" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="109542068">
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-109412076" class="comment " data-comment-id="109412076">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/a-minmin" id="comment-user" data-comment-user="a-minmin"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/54473970.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/a-minmin">a-minmin</a>
+    </div>
+    <div class="content">
+      
+      
+        私も、ぴょんさんのブロックについてのスタジオ?入りたいです。何かが得意というわけではないのですが、口は固く閉ざします、拡散もしませんので。できることは、少しずつ情報集めをして、推察することくらいですが
+      
+    </div>
+    <div>
+      <span class="time" title="12月 12, 2020">9日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="109412076" data-parent-thread="109412076" data-commentee-id="54473970" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="109412076">
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-109216134" class="comment " data-comment-id="109216134">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/omowakagames" id="comment-user" data-comment-user="omowakagames"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/61478142.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/omowakagames">omowakagames</a>
+    </div>
+    <div class="content">
+      
+      
+        <a href="https://scratch.mit.edu/studios/28228845/comments/">https://scratch.mit.edu/studios/28228845/comments/</a> 力になれそうなので入りたいです。んー、ぴょんさんとの関係関係...コラボ経験有、フォローフォロワー関係( <a href="/users/nekopyon">@nekopyon</a>,  <a href="/users/hekopyon">@hekopyon</a>で)です
+      
+    </div>
+    <div>
+      <span class="time" title="12月 11, 2020">10日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="109216134" data-parent-thread="109216134" data-commentee-id="61478142" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="109216134">
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-108963261" class="comment " data-comment-id="108963261">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/takatakatakashi" id="comment-user" data-comment-user="takatakatakashi"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/50439186.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/takatakatakashi">takatakatakashi</a>
+    </div>
+    <div class="content">
+      
+      
+        みんなが言ってるスタジオに <a href="/users/nekopyon"> </a><a href="/users/nekopyon">@nekopyon</a>さんのリア友と書いてある人がいますが本当ですか？ <a href="/users/nekopyon"> </a><a href="/users/nekopyon">@nekopyon</a>さんのリア友ならbanされた理由ぐらい聞くと思うのですが...?
+      
+    </div>
+    <div>
+      <span class="time" title="12月 10, 2020">11日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="108963261" data-parent-thread="108963261" data-commentee-id="50439186" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="108963261">
+                
+                    <li class="reply">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-108963748" class="comment " data-comment-id="108963748">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/takatakatakashi">@takatakatakashi</a>
+      
+      
+        本当です！
+      
+    </div>
+    <div>
+      <span class="time" title="12月 10, 2020">11日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="108963748" data-parent-thread="108963261" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+                    <li class="reply">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-108963757" class="comment " data-comment-id="108963757">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/takatakatakashi">@takatakatakashi</a>
+      
+      
+        理由は、本人も、わからないようです。
+      
+    </div>
+    <div>
+      <span class="time" title="12月 10, 2020">11日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="108963757" data-parent-thread="108963261" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+                    <li class="reply lastvisible">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-108964178" class="comment " data-comment-id="108964178">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/takatakatakashi" id="comment-user" data-comment-user="takatakatakashi"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/50439186.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/takatakatakashi">takatakatakashi</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/tsumuri3">@tsumuri3</a>
+      
+      
+        アラートで来るのでは？
+      
+    </div>
+    <div>
+      <span class="time" title="12月 10, 2020">11日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="108964178" data-parent-thread="108963261" data-commentee-id="50439186" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+                    <li class="reply truncated">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-108964331" class="comment " data-comment-id="108964331">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/takatakatakashi">@takatakatakashi</a>
+      
+      
+        知らないよ。僕にだってわからないことはあるよ。でも、とにかくリア友さんはリア友さんなの。ぴょんさんがコメントで言ってたの。でも、このことはあまり言いふらさないでほしいみたいなの。
+あまり適切な答えができずごめんなさい。
+      
+    </div>
+    <div>
+      <span class="time" title="12月 10, 2020">11日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="108964331" data-parent-thread="108963261" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+                    <li class="reply truncated last">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-108964384" class="comment " data-comment-id="108964384">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/takatakatakashi" id="comment-user" data-comment-user="takatakatakashi"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/50439186.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/takatakatakashi">takatakatakashi</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/tsumuri3">@tsumuri3</a>
+      
+      
+        了解です('◇')ゞ
+      
+    </div>
+    <div>
+      <span class="time" title="12月 10, 2020">11日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="108964384" data-parent-thread="108963261" data-commentee-id="50439186" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+            </ul>
+            
+                <div class="more-replies"><span class="pulldown">5 件の全ての返信を見る<span class="arrow"> ▼</span></span></div>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-108562706" class="comment " data-comment-id="108562706">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/oto213" id="comment-user" data-comment-user="oto213"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/32681076.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/oto213">oto213</a>
+    </div>
+    <div class="content">
+      
+      
+        <a href="https://scratch.mit.edu/studios/2822884">https://scratch.mit.edu/studios/2822884</a>5/　議論参加希望
+      
+    </div>
+    <div>
+      <span class="time" title="12月 08, 2020">13日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="108562706" data-parent-thread="108562706" data-commentee-id="32681076" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="108562706">
+                
+                    <li class="reply last">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-108562738" class="comment " data-comment-id="108562738">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/oto213" id="comment-user" data-comment-user="oto213"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/32681076.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/oto213">oto213</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/oto213">@oto213</a>
+      
+      
+        法律に関しては詳しいので☆
+      
+    </div>
+    <div>
+      <span class="time" title="12月 08, 2020">13日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="108562738" data-parent-thread="108562706" data-commentee-id="32681076" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-108171311" class="comment " data-comment-id="108171311">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/sohinakun" id="comment-user" data-comment-user="sohinakun"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/65887032.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/sohinakun">sohinakun</a>
+    </div>
+    <div class="content">
+      
+      
+        <a href="https://scratch.mit.edu/studios/28228845/comments/">https://scratch.mit.edu/studios/28228845/comments/</a>
+      
+    </div>
+    <div>
+      <span class="time" title="12月 06, 2020">15日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="108171311" data-parent-thread="108171311" data-commentee-id="65887032" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="108171311">
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-108170905" class="comment " data-comment-id="108170905">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/sohinakun" id="comment-user" data-comment-user="sohinakun"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/65887032.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/sohinakun">sohinakun</a>
+    </div>
+    <div class="content">
+      
+      
+        俺も議論に参加したいです！
+      
+    </div>
+    <div>
+      <span class="time" title="12月 06, 2020">15日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="108170905" data-parent-thread="108170905" data-commentee-id="65887032" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="108170905">
+                
+                    <li class="reply last">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-108172264" class="comment " data-comment-id="108172264">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/sohinakun">@sohinakun</a>
+      
+      
+        はい！
+      
+    </div>
+    <div>
+      <span class="time" title="12月 06, 2020">15日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="108172264" data-parent-thread="108170905" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-108169368" class="comment " data-comment-id="108169368">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/miko974" id="comment-user" data-comment-user="miko974"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/60735515.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/miko974">miko974</a>
+    </div>
+    <div class="content">
+      
+      
+        <a href="https://scratch.mit.edu/studios/28228845/comments/">https://scratch.mit.edu/studios/28228845/comments/</a> 入りたいですー
+      
+    </div>
+    <div>
+      <span class="time" title="12月 06, 2020">15日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="108169368" data-parent-thread="108169368" data-commentee-id="60735515" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="108169368">
+                
+                    <li class="reply last">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-108169595" class="comment " data-comment-id="108169595">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/miko974">@miko974</a>
+      
+      
+        は～い
+      
+    </div>
+    <div>
+      <span class="time" title="12月 06, 2020">15日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="108169595" data-parent-thread="108169368" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-108164415" class="comment " data-comment-id="108164415">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/syoukun_0526" id="comment-user" data-comment-user="syoukun_0526"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/66982414.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/syoukun_0526">syoukun_0526</a>
+    </div>
+    <div class="content">
+      
+      
+        フォローありがとうございます！フォローしました。
+      
+    </div>
+    <div>
+      <span class="time" title="12月 06, 2020">15日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="108164415" data-parent-thread="108164415" data-commentee-id="66982414" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="108164415">
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-108071386" class="comment " data-comment-id="108071386">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/sohinakun" id="comment-user" data-comment-user="sohinakun"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/65887032.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/sohinakun">sohinakun</a>
+    </div>
+    <div class="content">
+      
+      
+        ＋＊当たり＊＋
+      
+    </div>
+    <div>
+      <span class="time" title="12月 05, 2020">16日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="108071386" data-parent-thread="108071386" data-commentee-id="65887032" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="108071386">
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-108053109" class="comment " data-comment-id="108053109">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/mii361" id="comment-user" data-comment-user="mii361"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/27807032.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/mii361">mii361</a>
+    </div>
+    <div class="content">
+      
+      
+        例のスタジオに招待願います(((一応ぴょん様の弟子兼ぴょんグループ会員です!
+      
+    </div>
+    <div>
+      <span class="time" title="12月 05, 2020">16日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="108053109" data-parent-thread="108053109" data-commentee-id="27807032" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="108053109">
+                
+                    <li class="reply">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-108157324" class="comment " data-comment-id="108157324">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/tsumuri3" id="comment-user" data-comment-user="tsumuri3"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/33702239.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/tsumuri3">tsumuri3</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/mii361">@mii361</a>
+      
+      
+        は～い！
+      
+    </div>
+    <div>
+      <span class="time" title="12月 06, 2020">15日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="108157324" data-parent-thread="108053109" data-commentee-id="33702239" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+                    <li class="reply last">
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-108173202" class="comment " data-comment-id="108173202">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/mii361" id="comment-user" data-comment-user="mii361"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/27807032.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/mii361">mii361</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/tsumuri3">@tsumuri3</a>
+      
+      
+        してますよ!(ユザネ入れて招待できますよ)
+      
+    </div>
+    <div>
+      <span class="time" title="12月 06, 2020">15日 前</span>
+      
+        
+        <a class="reply" style="display: inline;" data-comment-id="108173202" data-parent-thread="108053109" data-commentee-id="27807032" data-control="reply-to">
+            <span>返信</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+                    </li>
+                
+            </ul>
+            
+        
+    </li>
+
+    <li class="top-level-reply removed">
+        
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments-107840042" class="comment removed" data-comment-id="107840042">
+  <div class="actions-wrap">
+
+
+  <span data-control="report" class="actions report">
+  
+    報告
+  </span>
+
+</div>
+  <a href="/users/3659662244" id="comment-user" data-comment-user="3659662244"><img class="avatar" src="//uploads.scratch.mit.edu/users/avatars/58315156.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/3659662244">3659662244</a>
+    </div>
+    <div class="content">
+      
+      
+        [deleted]
+      
+    </div>
+    <div>
+      <span class="time" title="12月 04, 2020">17日 前</span>
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+
+        
+            <ul class="replies" data-thread="107840042">
+                
+            </ul>
+            
+        
+    </li>
+
+
+    <div class="button grey" style="position: relative; left: 47%;" data-control="load-more"><span>もっと読み込む</span></div>
+
+<!-- end templates/comments/list.html -->
+</ul>
+  </div>
+</div>
+
+    
+  </div>
+</div>
+<div id="scratcher-promotion-modal" class="modal hide fade" style="display: none;"></div>
+<!-- end block main-content -->
+
+
+        </div>
+
+
+        
+        
+    </div>
+    <div id="footer">
+      <div class="container">
+        <style>
+          #footer ul.footer-col li {
+            list-style-type:none;
+            display: inline-block;
+            width: 184px;
+            text-align: left;
+            vertical-align: top;
+          }
+
+          #footer ul.footer-col li h4 {
+            font-weight: bold;
+            font-size: 14px;
+            color: #666;
+          }
+
+        </style>
+        <ul class="clearfix footer-col">
+          <li>
+            <h4>Scratchについて</h4>
+            <ul>
+              <li><a href="/about/">Scratchについて</a></li>
+              <li><a href="/parents/">保護者の方へ</a></li>
+              <li><a href="/educators/">教育関係者の方へ</a></li>
+              <li><a href="/developers">開発者向け</a></li>
+              <li><a href="/info/credits/">クレジット</a></li>
+              <li><a href="/jobs/">求人</a></li>
+              <li><a href="https://www.scratchfoundation.org/media-kit/">プレス情報</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>コミュニティ</h4>
+            <ul>
+              <li><a href="/community_guidelines/">コミュニティーガイドライン</a></li>
+              <li><a href="/discuss/">ディスカッションフォーラム</a></li>
+              <li><a href="http://wiki.scratch.mit.edu/">Scratch Wiki</a></li>
+              <li><a href="/statistics/">統計情報</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>サポート</h4>
+            <ul>
+              <li><a href="/ideas">アイデア</a></li>
+              <li><a href="/info/faq/">よくある質問</a></li>
+              <li><a href="/download">オフラインエディター</a></li>
+              <li><a href="/contact-us/">連絡先</a></li>
+              <li><a href="/store">Scratchストア</a></li>
+              <li><a href="https://secure.donationpay.org/scratchfoundation/">寄付</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>法的表示</h4>
+            <ul>
+              <li><a href="/terms_of_use/">利用規約</a></li>
+              <li><a href="/privacy_policy/">プライバシー・ポリシー</a></li>
+              <li><a href="/DMCA/">デジタルミレニアム著作権法（DMCA）</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>関連サイト</h4>
+            <ul>
+              <li><a href="http://scratched.gse.harvard.edu/">ScratchEd</a></li>
+              <li><a href="http://www.scratchjr.org/">ScratchJr</a></li>
+              <li><a href="http://day.scratch.mit.edu/">Scratch Day</a></li>
+              <li><a href="/conference/">Scratchカンファレンス</a></li>
+              <li><a href="http://www.scratchfoundation.org/">Scratch財団</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="clearfix" id="footer-menu">
+          <li>
+            <form id="lang-dropdown" method="post" action="/i18n/setlang/">
+              <select id="language-selection" name="language">
+              
+                <option value="ab">Аҧсшәа</option>
+              
+                <option value="ar">العربية</option>
+              
+                <option value="am">አማርኛ</option>
+              
+                <option value="az">Azeri</option>
+              
+                <option value="id">Bahasa Indonesia</option>
+              
+                <option value="be">Беларуская</option>
+              
+                <option value="bg">Български</option>
+              
+                <option value="ca">Català</option>
+              
+                <option value="cs">Česky</option>
+              
+                <option value="cy">Cymraeg</option>
+              
+                <option value="da">Dansk</option>
+              
+                <option value="de">Deutsch</option>
+              
+                <option value="et">Eesti</option>
+              
+                <option value="el">Ελληνικά</option>
+              
+                <option value="en">English</option>
+              
+                <option value="es">Español</option>
+              
+                <option value="es-419">Español Latinoamericano</option>
+              
+                <option value="eu">Euskara</option>
+              
+                <option value="fa">فارسی</option>
+              
+                <option value="fr">Français</option>
+              
+                <option value="ga">Gaeilge</option>
+              
+                <option value="gd">Gàidhlig</option>
+              
+                <option value="gl">Galego</option>
+              
+                <option value="ko">한국어</option>
+              
+                <option value="hy">Հայերեն</option>
+              
+                <option value="he">עִבְרִית</option>
+              
+                <option value="hr">Hrvatski</option>
+              
+                <option value="zu">isiZulu</option>
+              
+                <option value="is">Íslenska</option>
+              
+                <option value="it">Italiano</option>
+              
+                <option value="ka">ქართული ენა</option>
+              
+                <option value="sw">Kiswahili</option>
+              
+                <option value="ht">Kreyòl ayisyen</option>
+              
+                <option value="ku">Kurdî</option>
+              
+                <option value="ckb">کوردیی ناوەندی</option>
+              
+                <option value="lv">Latviešu</option>
+              
+                <option value="lt">Lietuvių</option>
+              
+                <option value="hu">Magyar</option>
+              
+                <option value="mi">Māori</option>
+              
+                <option value="mn">Монгол хэл</option>
+              
+                <option value="nl">Nederlands</option>
+              
+                <option value="ja" selected="">日本語</option>
+              
+                <option value="ja-Hira">にほんご</option>
+              
+                <option value="nb">Norsk Bokmål</option>
+              
+                <option value="nn">Norsk Nynorsk</option>
+              
+                <option value="uz">Oʻzbekcha</option>
+              
+                <option value="th">ไทย</option>
+              
+                <option value="km">ភាសាខ្មែរ</option>
+              
+                <option value="pl">Polski</option>
+              
+                <option value="pt">Português</option>
+              
+                <option value="pt-br">Português Brasileiro</option>
+              
+                <option value="rap">Rapa Nui</option>
+              
+                <option value="ro">Română</option>
+              
+                <option value="ru">Русский</option>
+              
+                <option value="sk">Slovenčina</option>
+              
+                <option value="sl">Slovenščina</option>
+              
+                <option value="sr">Српски</option>
+              
+                <option value="fi">Suomi</option>
+              
+                <option value="sv">Svenska</option>
+              
+                <option value="vi">Tiếng Việt</option>
+              
+                <option value="tr">Türkçe</option>
+              
+                <option value="uk">Українська</option>
+              
+                <option value="zh-cn">简体中文</option>
+              
+                <option value="zh-tw">繁體中文</option>
+              
+              </select>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+
+    
+<!-- templates/modal-login.html block -->
+	    <div class="modal hide fade in" id="login-dialog" style="width: 450px">
+        <form method="post" action="/login/">
+          <fieldset>
+            <div class="modal-header">
+              <a href="#" data-dismiss="modal" class="close">x
+              </a>
+	      <h3>サインイン</h3>
+            </div>
+            <div class="modal-body">
+            
+              <div class="control-group">
+		      <label class="control-label" for="username">ユーザー名
+                </label>
+                <div class="controls">
+                  <input class="username" type="text" name="username" maxlength="30">
+                </div>
+              </div>
+              <div class="control-group">
+		            <label class="control-label" for="password">パスワード
+                </label>
+                <div class="controls">
+                  <input type="password" name="password" class="password">
+                </div>
+              </div>
+              
+            </div>
+            <div class="modal-footer">
+              <span class="error">
+              </span>
+              <div class="buttons-right">
+                <button class="button primary" type="submit">サインイン</button> 
+                
+		<a data-control="registration">Scratchに参加する</a>
+                
+              </div>
+            </div>
+           
+          </fieldset>
+        </form>
+        <iframe class="iframeshim" frameborder="0" scrolling="no"><html><head></head><body></body></html></iframe>
+      </div>
+<!-- end templates/modal-login.html -->
+
+    
+        <div id="registration" class="registration modal hide fade" data-backdrop="static">
+          <iframe class="iframeshim" frameborder="0" scrolling="no"><html><head></head><body></body></html></iframe>
+        </div>
+    
+
+    
+    
+
+    
+    
+
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__//js/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__/js/main.js" charset="utf-8"></script>
+
+  
+  <script type="text/javascript">
+    // load gaq script
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__/js/base.js" charset="utf-8"></script>
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__/js/lazyload.js" charset="utf-8"></script>
+    
+<!-- templates/profiles/profile_detail.html block js -->
+
+<script src="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__//js/swfobject.js"></script>
+<script src="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__//js/apps/project/scratch_app.js"></script>
+<script>Scratch.profileHasFeatured = true</script>
+
+<script src="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__//js/lib/jquery.ui.widget.js"></script>
+<script src="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__//js/lib/blueimp-jquery-file-upload/jquery.iframe-transport.js"></script>
+<script src="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__//js/lib/blueimp-jquery-file-upload/jquery.fileupload.js"></script>
+<script>
+  $(document).ready(function() {
+    scratch.notifications.loadActivity($('#activity-feed'), {'friends': false, 'max': 6, 'actor': 'tsumuri3'});
+  });
+    sessionStorage.setItem("explore_by", "creator")
+    sessionStorage.removeItem("gallery_id")
+</script>
+<!-- end block js -->
+
+    
+
+    
+
+
+
+<script type="text/template" id="template-collection-count">
+  <%- count %>
+</script>
+
+<script type="text/template" id="template-comment-actions">
+<% if (can_delete) { %>
+  <% if (is_staff && comment_user == current_user) { %>
+    <span data-control="delete" class="actions report">Delete</span>
+  <% } else if (type != "gallery" || comment_user == current_user) { %>
+    <span data-control="delete" class="actions report">Delete</span>
+  <% } %>
+<% } %>
+<% if (current_user != comment_user) { %>
+  <span data-control="report" class="actions report">
+  <% if (student_of_educator) { %>
+    削除
+  <% } else { %>
+    報告
+  <% } %></span>
+<% } %>
+</script>
+
+<script type="text/template" id="template-modal-login">
+<div class="modal hide fade in" id="login-dialog" style="width: 450px">
+  <form method="post" action="/login/">
+    <fieldset>
+      <div class="modal-header">
+        <a href="#" data-dismiss="modal" class="close">x
+        </a>
+        <h3>Login</h3>
+      </div>
+      <div class="modal-body">
+        <div class="control-group">
+        <label class="control-label" for="username">ユーザー名
+          </label>
+          <div class="controls">
+            <input id="username" type="text" name="username" maxlength="30" />
+          </div>
+        </div>
+        <div class="control-group">
+        <label class="control-label" for="password">パスワード
+          </label>
+          <div class="controls">
+            <input type="password" name="password" id="password" />
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <span class="error">
+        </span>
+        <span class="button primary" id="sign-in" data-control="site-login">
+        <span>{% trans "Sign in" $}
+          </span>
+        </span>
+      </div>
+    </fieldset>
+  </form>
+</div>
+</script>
+
+<script type="text/template" id="template-comment-reply">
+  <form>
+    <div class="control-group tooltip right">
+      <textarea name="content"></textarea>
+      
+      <span class="hovertext error" data-control="error" data-content="comment-error"><span class="arrow"></span><span class="text"></span></span>
+      <span class="small-text">残り<span id="chars-left-<%- comment_id %>">500</span>文字。</span>
+    </div>
+    <div class="control-group">
+        <div class="button small" data-parent-thread="<%- thread_id %>" data-commentee-id="<%- commentee_id %>" data-control="post"><a href="#null">投稿</a></div>
+        <div class="button small grey" data-control="cancel"><a href="#null">キャンセル</a></div>
+      <span class="notification"></span>
+    </div>
+  </form>
+</script>
+
+<script type="text/template" id="template-deletion-canceled">
+<div class="deletion-canceled">
+  <div class="form">
+    <p>
+    Your account was scheduled for deletion but you logged in. Your account has been reactivated. If you didn’t request for your account to be deleted, you should <a href="/accounts/password_change/">change your password</a> to make sure your account is secure. 
+    </p>
+  </div>
+</div>
+</script>
+
+<script type="text/template" id="template-unsupported-browser">
+  <div class="unsupported-browser banner" data-cue="unsupported_browser">
+    <div class="container">
+      <span>Scratch works best on newer browsers. We suggest you upgrade to <a href="/info/faq/#requirements">a supported browser</a>, <a href="/scratch2download/">download the offline editor</a>, <a href="https://en.scratch-wiki.info/wiki/List_of_Bug_Workarounds">or read about common workarounds</a>.</span>
+      <div class="close">x</div>
+    </div>
+  </div>
+</script>
+
+<script type="text/template" id="template-unsupported-msie">
+  <div class="unsupported-browser banner" data-cue="unsupported_browser">
+    <div class="container">
+      <span>Scratch will stop supporting Internet Explorer 8 on April 30, 2015. We suggest you upgrade to <a href="/info/faq/#requirements">a supported browser</a>, <a href="/scratch2download/">download the offline editor</a>, or <a href="https://en.scratch-wiki.info/wiki/List_of_Bug_Workarounds">read about common workarounds</a>.</span>
+      <div class="close">x</div>
+    </div>
+  </div>
+</script>
+
+
+
+<script type="text/template" id="template-bio-status-content">
+  
+    <p>かたつむり好きな、小6の男子です。
+現在フォロワー数日本1,676位
+https://tsumuri3.github.io/homepage/tsumuri
+http://plsk.net/tsumuri3-profile
+より詳しプロフィールが見たい方はこちらへ
+t̴̩̫̘͙̃͒́s̸̖̔ͅu̴̯͒͠m̸̢̛͔͇͖̻̘̮͍̦̓̋̊͐̍̑̑͝u̴̯͒͠r̶̭̮̰̓͜͝í̵͈̰̞̼̝̘̫̦̠̪̌̏̑</p>
+  
+</script>
+
+<script type="text/template" id="template-project-collection">
+  <% _.each(collection, function(project) { %>
+    <li>
+      <div class="project thumb" data-id="<%- project.id %>">
+        <img src="<%- project.thumbnail_url %>">
+        <span class="title">
+          <a href="/projects/<%- project.id %>"><%- project.title %></a>
+        </span>
+      </div>
+    </li>
+  <% }); %>
+</script>
+
+<script type="text/template" id="template-modal-container">
+  <div class="modal-header">
+    <span class="close" data-dismiss="modal" aria-hidden="true">×</span>
+    <h3 id="myModalLabel">My Shared Projects</h3>
+    <div class="feature-label">
+      <label for="feature-label">Label</label>
+      <select name="feature-label">
+        <option value="" selected="selected">注目のプロジェクト</option>
+      
+        <option value="0" >注目のチュートリアル</option>
+      
+        <option value="1" >作成中</option>
+      
+        <option value="2" >これをリミックスして！</option>
+      
+        <option value="3" >私のお気に入り</option>
+      
+        <option value="4" >Scratchをやる理由</option>
+      </select>
+    </div>
+  </div>
+  <div data-content="modal-body" class="modal-body">
+    
+    <ul data-content="collection" class="media-grid projects">
+    </ul>
+    <div class="button small grey" data-control="load-more"><span>Load more</span></div>
+    
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+    <button class="btn blue btn-primary" data-control="save">OK</button>
+  </div>
+</div>
+</script>
+
+<script type="text/template" id="template-report">
+  <div class="profile-report">
+      このユーザーのプロフィール内で、失礼や不適切だったり、あるいは、<a href="/community_guidelines" target="_blank">Scratchのコミュニティーガイドライン</a>に反していると思うところを選んでください。
+    <br>
+    <p class="errors">不適切な部分を選んでください。</p>
+    <form class="form-horizontal" id='report_form'>
+      <input type="radio" id='radio_username' name="report_value" value="username">ユーザー名</input>
+      <br>
+      <input type="radio" id='radio_icon' name="report_value" value="icon">アイコン</input>
+      <br>
+      <input type="radio" id='radio_description' name="report_value" value="description">私について</input>
+      <br>
+      <input type="radio" id='radio_working_on' name="report_value" value="working_on">私が取り組んでいること</input>
+    </form>
+    <div>
+      このユーザーが、コミュニティーガイドラインに反するコメントやプロジェクト、スタジオを作成した場合は、それらのコメントなどにある報告ボタンを押してください。
+    </div>
+  </div>
+</script>
+
+<script type="text/template" id="template-thanks">
+<div class="profile-report">
+  <div class="form">
+    <div>Thank you. We have received your report. The Scratch Team will review this user based on the Scratch community guidelines.
+    </div>
+  </div>
+</div>
+</script>
+
+
+
+
+
+
+
+    
+
+    <!-- load javascript translation catalog, and javascript fuzzy date library -->
+    <script type="text/javascript" src="/jsi18n/"></script>
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__/js/lib/jquery.timeago.settings.js"></script>
+
+    
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__//js/apps/registration/main.js"></script>
+    
+
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__//js/apps/global.js"></script>
+    <script>
+      Scratch.NotificationPollTime = 300000;
+    </script>
+
+    
+<script src="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__//js/apps/userprofile/main.js"></script>
+<script src="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__//js/apps/userprofile/models.js"></script>
+<script src="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__//js/apps/userprofile/views.js"></script>
+<script src="//cdn.scratch.mit.edu/scratchr2/static/__31603c47ef357e5c3cfbc182f95181bb__//js/apps/userprofile/models/user-detail.js"></script>
+
+
+    
+    <script>
+    $(document).on("accountnavready", function(e){
+        $('#topnav .messages').notificationsAlert();
+    });
+    </script>
+    
+  
+  <!-- Site Version: 3.2020.12.04_2020_12_04_14_25 -->
+
+</body></html>
